@@ -4,7 +4,7 @@
 
 ### About Project : 
 
-this project designed by Bootstrap5 by **Alirez Khayatpor**
+This is the second project of website design with Bootstrap, Designed by **Alirez Khayatpor**
 
 * [my web site](https://www.alicoder.ir)
 
