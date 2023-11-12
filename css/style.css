@@ -84,9 +84,9 @@ body {
     font-size: 12px;
 }
 
-/* ::-webkit-scrollbar{
+::-webkit-scrollbar{
     display: none  ;
-} */
+}
 
 /* header css */
 .header-scrolled {
@@ -95,5 +95,5 @@ body {
 }
 
 .navtransiton{
-    transition: all .5s
+    transition: all 1s
 }
