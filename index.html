@@ -13,17 +13,18 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="img/logo3.png" type="image/png">
     <title>طراحی سایت 2 - بوت استرپ5</title>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.2/dist/cdn.min.js"></script>
 </head>
 
 <body>
 
     <!-- section1 : Header -->
-    <section id="header">
-        <nav class="navbar navbar-expand-lg bg-transparent">
+    <section id="header" x-data="{navShow:false}" @scroll.window="navShow= window.scrollY > 100 ? true : false">
+        <nav class="navbar navbar-expand-lg fixed-top navtransiton" :class="{'header-scrolled': navShow}">
             <div class="container-fluid container-lg">
                 <a class="navbar-brand" href="#">
-                    <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span class="fs-5">.ir</span></span>  
+                    <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span
+                            class="fs-5">.ir</span></span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
@@ -60,7 +61,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="کلمه مورد نظر را بنویسید" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="کلمه مورد نظر را بنویسید"
+                            aria-label="Search">
                         <button class="btn btn-outline-success btn-sm" type="submit">پیدا‌کن</button>
                     </form>
                 </div>

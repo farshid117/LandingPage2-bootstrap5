@@ -69,18 +69,31 @@
 }
 
 /*---------------------------------- End of fonts ---------------------------------- */
-*{
-   
+* {
+
     box-sizing: border-box !important;
 }
+
 body {
     font-family: 'Vazir';
-  
+
 }
-::-webkit-input-placeholder{
+
+::-webkit-input-placeholder {
     color: #777;
     font-size: 12px;
 }
-::-webkit-scrollbar{
+
+/* ::-webkit-scrollbar{
     display: none  ;
+} */
+
+/* header css */
+.header-scrolled {
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgb(1 41 112/10%);
+}
+
+.navtransiton{
+    transition: all .5s
 }
