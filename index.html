@@ -19,8 +19,8 @@
 <body>
 
     <!-- section1 : Header -->
-    <section id="header" x-data="{navShow:false}" @scroll.window="navShow= window.scrollY > 100 ? true : false">
-        <nav class="navbar navbar-expand-lg fixed-top navtransiton" :class="{'header-scrolled': navShow}">
+    <section id="header"  x-data="{navShow:false}" @scroll.window="navShow= window.scrollY > 100 ? true : false">
+        <nav class="navbar navbar-expand-lg fixed-top navtransiton nav-bg" :class="{'header-scrolled': navShow}">
             <div class="container-fluid container-lg">
                 <a class="navbar-brand" href="#">
                     <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span
@@ -70,7 +70,19 @@
         </nav>
     </section>
     <!-- section2 : Introduction -->
-    <section id="intro" class="bg-primary-subtle" style="height: 1500px;">
+    <section id="intro" class="intro d-flex align-items-center">
+        <div class="container-fluid container-lg">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-md-6 right ">
+                    <h5 class="fw-bold text-primary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</h5>
+                    <h5 class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی.</h5>
+                    <button class="btn btn-lg btn-primary mt-3 hover-grow">لورم ایپسوم</button>
+                </div>
+                <div class="col-md-6 mt-3 mt-md-0">
+                    <img src="./img/intro/intro-img.png" class="img-fluid" alt="img-intro">
+                </div>
+            </div>
+        </div>
 
     </section>
 

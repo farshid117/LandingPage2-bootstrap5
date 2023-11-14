@@ -84,8 +84,21 @@ body {
     font-size: 12px;
 }
 
-::-webkit-scrollbar{
-    display: none  ;
+::-webkit-scrollbar {
+    display: none;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p{
+    line-height: 1.8;
+}
+/* utilities */
+
+.hover-grow {
+    transition: all .5s;
+}
+
+.hover-grow:hover {
+    transform: scale(1.1);
 }
 
 /* header css */
@@ -94,6 +107,41 @@ body {
     box-shadow: 0px 2px 20px rgb(1 41 112/10%);
 }
 
-.navtransiton{
+.navtransiton {
     transition: all 1s
+}
+
+@media (max-width: 992px) {
+    .nav-bg {
+        background: #fff;
+    }
+}
+
+@media (min-width: 0px) {
+    .right {
+        margin-top: 150px;
+    }
+}
+
+/* وقتی عرض صفحه نمایش بین 576 پیکسل و 992 پیکسل باشه */
+@media screen and (min-width: 576px) {
+    .right {
+        margin-top: 200px;
+    }
+}
+
+/* وقتی عرض صفحه نمایش از 768 پیکسل به بالا باشه */
+@media screen and (min-width: 768px) {
+    .right {
+        margin-top: 0px;
+    }
+}
+
+/* intro css */
+
+.intro {
+    height: 100vh;
+    width: 100vw;
+    background: url("../img/intro/intro-bg.png") top center no-repeat;
+    background-size: cover;
 }
