@@ -19,12 +19,13 @@
 <body>
 
     <!-- section1 : Header -->
-    <section id="header" x-data="{navShow:false}"  @scroll.window="navShow= window.scrollY > 100 ? true : false">
-        
+    <section id="header" x-data="{navShow:false}" @scroll.window="navShow= window.scrollY > 100 ? true : false">
+
         <nav class="navbar navbar-expand-md fixed-top  nav-transiton nav-bg" :class="{'header-scrolled': navShow}">
             <div class="container-lg">
                 <a class="navbar-brand" href="#">
-                    <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span class="fs-5">.ir</span></span>
+                    <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span
+                            class="fs-5">.ir</span></span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
@@ -36,8 +37,8 @@
                             <a class="nav-link active" aria-current="page" href="#">خانه</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 محصولات
                             </a>
                             <ul class="dropdown-menu">
@@ -61,17 +62,18 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search"
-                            placeholder="کلمه مورد نظر را بنویسید" aria-label="Search">
-                        <button class="btn btn-outline-success d-flex justify-content-center" type="submit">پیدا‌کن</button>
+                        <input class="form-control me-2" type="search" placeholder="کلمه مورد نظر را بنویسید"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success d-flex justify-content-center"
+                            type="submit">پیدا‌کن</button>
                     </form>
                 </div>
             </div>
         </nav>
 
     </section>
+
     <!-- section2 : Introduction -->
-   
     <section id="intro" class="intro d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center text-center text-md-start">
@@ -81,21 +83,22 @@
                     <button class="btn btn-lg btn-primary mt-3 hover-grow">لورم ایپسوم</button>
                 </div>
                 <div class="col-md-6 mt-3 mt-md-0">
-                    <img src="./img/intro/intro-img.png"  class="img-fluid" alt="img-intro">
+                    <img src="./img/intro/intro-img.png" class="img-fluid" alt="img-intro">
                 </div>
             </div>
         </div>
 
     </section>
 
-    <!-- section : About -->
+    <!-- section3 : About -->
     <section id="about" class="mt-5 bg-light-subtle py-3">
         <div class="container">
             <div class="row align-items-center justify-content-center  ">
                 <div class="col-md-6 text-center text-md-start">
                     <h5 class="fw-bold text-primary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</h5>
                     <h5 class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی.</h5>
-                    <p class="text-muted text-justify-md p-3 rounded bg-primary-subtle">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                    <p class="text-muted text-justify-md p-3 rounded bg-primary-subtle">لورم ایپسوم متن ساختگی با تولید
+                        سادگی نامفهوم از صنعت چاپ و با
                         استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
                         و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با
                         هدف بهبود ابزارهای</p>
@@ -103,6 +106,50 @@
                 </div>
                 <div class="col-md-5 offset-md-1 mt-3 mt-md-0 d-flex justify-content-center">
                     <img src="./img/about/about.jpg" class="img-fluid rounded-5" alt="img-about">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section4 : card-values -->
+    <section id="card-values" class="mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3 class=" fw-bold text-primary">لورم ایپسوم</h3>
+                    <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
+                </div>
+            </div>
+            <div class="row gy-3 mt-3">
+                <div class="col-md-4">
+                    <div class="card shadow-sm card-hover" >
+                        <img src="./img/values/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm card-hover " >
+                        <img src="./img/values/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm card-hover" >
+                        <img src="./img/values/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

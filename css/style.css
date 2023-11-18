@@ -72,7 +72,7 @@
 * {
 
     box-sizing: border-box !important;
-    overflow-x : hidden !important;
+    overflow-x: hidden !important;
 
 }
 
@@ -90,9 +90,10 @@ body {
     display: none;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p{
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
     line-height: 1.8;
 }
+
 /* utilities */
 
 .hover-grow {
@@ -102,11 +103,12 @@ body {
 .hover-grow:hover {
     transform: scale(1.1);
 }
-.text-justify-md{
+
+.text-justify-md {
     text-align: justify;
 }
 
-/* header css */
+/* section1,2 : header css */
 .header-scrolled {
     background-color: #fff;
     box-shadow: 0px 2px 20px rgb(1 41 112/10%);
@@ -142,11 +144,20 @@ body {
     }
 }
 
-/* intro css */
+/* section3: intro css */
 
 .intro {
     height: 100vh;
-    width: 100% !important; 
+    width: 100% !important;
     background: url("../img/intro/intro-bg.png") top center no-repeat;
     background-size: cover;
+}
+
+/* section4 : card-values */
+.card-hover{
+    transition: all .5s ease-in-out;
+}
+.card-hover:hover {
+    transform: scale(0.97);
+    border-color: #0d6efd !important;
 }
