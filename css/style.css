@@ -161,3 +161,20 @@ body {
     transform: scale(0.97);
     border-color: #0d6efd !important;
 }
+
+/* section5 : counts */
+.counts i{
+    font-size: 42px;
+}
+.counts i.blue{
+    color: #4154f1;
+}
+.counts i.orange{
+    color: #ee6c20;
+}
+.counts i.green{
+    color: #15be56;
+}
+.counts i.red{
+    color: #bb0852;
+}

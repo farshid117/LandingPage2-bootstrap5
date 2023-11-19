@@ -21,7 +21,7 @@
     <!-- section1 : Header -->
     <section id="header" x-data="{navShow:false}" @scroll.window="navShow= window.scrollY > 100 ? true : false">
 
-        <nav class="navbar navbar-expand-md fixed-top  nav-transiton nav-bg" :class="{'header-scrolled': navShow}">
+        <nav class="navbar navbar-expand-lg fixed-top  nav-transiton nav-bg" :class="{'header-scrolled': navShow}">
             <div class="container-lg">
                 <a class="navbar-brand" href="#">
                     <span class="fw-bolder fs-3">Ali<span class="fw-bold text-primary">Coder</span><span
@@ -77,12 +77,12 @@
     <section id="intro" class="intro d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center text-center text-md-start">
-                <div class="col-md-6 right ">
+                <div class="col-lg-6 right ">
                     <h5 class="fw-bold text-primary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</h5>
                     <h5 class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی.</h5>
                     <button class="btn btn-lg btn-primary mt-3 hover-grow">لورم ایپسوم</button>
                 </div>
-                <div class="col-md-6 mt-3 mt-md-0">
+                <div class="col-lg-6 mt-3 mt-md-0">
                     <img src="./img/intro/intro-img.png" class="img-fluid" alt="img-intro">
                 </div>
             </div>
@@ -94,7 +94,7 @@
     <section id="about" class="mt-5 bg-light-subtle py-3">
         <div class="container">
             <div class="row align-items-center justify-content-center  ">
-                <div class="col-md-6 text-center text-md-start">
+                <div class="col-lg-6 text-center text-md-start">
                     <h5 class="fw-bold text-primary ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ.</h5>
                     <h5 class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی.</h5>
                     <p class="text-muted text-justify-md p-3 rounded bg-primary-subtle">لورم ایپسوم متن ساختگی با تولید
@@ -104,7 +104,7 @@
                         هدف بهبود ابزارهای</p>
                     <button class="btn btn-lg btn-primary mt-md-3 hover-grow">لورم ایپسوم</button>
                 </div>
-                <div class="col-md-5 offset-md-1 mt-3 mt-md-0 d-flex justify-content-center">
+                <div class="col-lg-5 offset-lg-1 mt-3 mt-md-0 d-flex justify-content-center">
                     <img src="./img/about/about.jpg" class="img-fluid rounded-5" alt="img-about">
                 </div>
             </div>
@@ -114,39 +114,42 @@
     <!-- section4 : card-values -->
     <section id="card-values" class="mt-3">
         <div class="container">
-            <div class="row">
+            <div class="row text-center">
                 <div class="col text-center">
                     <h3 class=" fw-bold text-primary">لورم ایپسوم</h3>
                     <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
                 </div>
             </div>
             <div class="row gy-3 mt-3">
-                <div class="col-md-4">
-                    <div class="card shadow-sm card-hover" >
+                <div class=" col-lg-4">
+                    <div class="card shadow-sm card-hover">
                         <img src="./img/values/1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                از طراحان گرافیک است.</p>
                             <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm card-hover " >
+                <div class=" col-lg-4">
+                    <div class="card shadow-sm card-hover ">
                         <img src="./img/values/2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                از طراحان گرافیک است.</p>
                             <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card shadow-sm card-hover" >
+                <div class="col-lg-4">
+                    <div class="card shadow-sm card-hover">
                         <img src="./img/values/3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">لورم ایپسوم متن ساختگی</h5>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                از طراحان گرافیک است.</p>
                             <a href="#" class="btn btn-primary">مشاهده بیشتر</a>
                         </div>
                     </div>
@@ -154,6 +157,72 @@
             </div>
         </div>
     </section>
+
+    <!-- section5 : count -->
+    <!-- todo: using purecounter package -->
+    <section id="counts" class="counts mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 shadow p-3">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <i class="bi bi-emoji-smile blue me-3"></i>
+                        <div>
+                            <span class="fs-3 fw-bold text-primary purecounter"
+                                  data-purecounter-start="0"
+                                  data-purecounter-end="9001"
+                            >
+                                0
+                            </span>
+                            <p>لورم ایپسون</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow p-3">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <i class="bi bi-journal-richtext orange me-3"></i>
+                        <div>
+                           <span class="fs-3 fw-bold text-primary purecounter"
+                                  data-purecounter-start="0"
+                                  data-purecounter-end="3250"
+                            >
+                                0
+                            </span>
+                            <p>لورم ایپسون</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow p-3">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <i class="bi bi-headset green  me-3"></i>
+                        <div>
+                           <span class="fs-3 fw-bold text-primary purecounter"
+                                  data-purecounter-start="0"
+                                  data-purecounter-end="4325"
+                            >
+                                0
+                            </span>
+                            <p>لورم ایپسون</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow p-3">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <i class="bi bi-people red me-3"></i>
+                        <div>
+                           <span class="fs-3 fw-bold text-primary purecounter"
+                                  data-purecounter-start="0"
+                                  data-purecounter-end="7354"
+                            >
+                                0
+                            </span>
+                            <p>لورم ایپسون</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <br><br><br><br><br><br><br>
 
@@ -163,6 +232,10 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+        new PureCounter();
+    </script>
 </body>
 
 </html>
