@@ -154,27 +154,38 @@ body {
 }
 
 /* section4 : card-values */
-.card-hover{
+.card-hover {
     transition: all .5s ease-in-out;
 }
+
 .card-hover:hover {
     transform: scale(0.97);
     border-color: #0d6efd !important;
 }
 
 /* section5 : counts */
-.counts i{
+.counts i {
     font-size: 42px;
 }
-.counts i.blue{
+
+.counts i.blue {
     color: #4154f1;
 }
-.counts i.orange{
+
+.counts i.orange {
     color: #ee6c20;
 }
-.counts i.green{
+
+.counts i.green {
     color: #15be56;
 }
-.counts i.red{
+
+.counts i.red {
     color: #bb0852;
+}
+
+/* section6 : features */
+.features i {
+    font-size: 44px;
+    color: rgb(65, 84, 241);
 }
