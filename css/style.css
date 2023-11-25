@@ -72,7 +72,7 @@
 * {
 
     box-sizing: border-box !important;
-    overflow-x: hidden !important;
+    /* overflow-x: hidden !important; */
 
 }
 
@@ -290,4 +290,58 @@ body {
 
 .services .service-box.green:hover .read-more a {
     color: #fff
+}
+
+/* section8 : pricing */
+.card .btn-outline-danger {
+    border-color: #ff0071 !important;
+
+}
+
+.card .btn-outline-danger:hover {
+    background-color: #ff0071 !important;
+    color: #fff !important;
+}
+
+.card .btn-outline-warning {
+    border-color: #ff901c !important;
+    color: #ff901c !important;
+
+}
+
+.card .btn-outline-warning:hover {
+    background-color: #ff901c !important;
+    color: #000 !important;
+
+}
+
+.card .btn-outline-success {
+    border-color: #65c600 !important;
+    color: #65c600 !important;
+
+}
+
+.card .btn-outline-success:hover {
+    background-color: #65c600 !important;
+    color: #fff !important;
+
+}
+
+.card .btn-outline-primary {
+    border-color: #07d5c0 !important;
+    color: #07d5c0 !important;
+
+}
+
+.card .btn-outline-primary:hover {
+    background-color: #07d5c0 !important;
+    color: #fff !important;
+
+}
+
+.card {
+    transition: all .3s;
+}
+.card:hover {
+    transform: scale(1.09);
 }
