@@ -339,9 +339,14 @@ body {
 
 }
 
-.card {
-    transition: all .3s;
-}
-.card:hover {
-    transform: scale(1.09);
+
+
+@media (min-width: 768px) {
+    .card {
+        transition: all .3s;
+    }
+
+    .card:hover {
+        transform: scale(1.09);
+    }
 }
