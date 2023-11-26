@@ -350,3 +350,28 @@ body {
         transform: scale(1.09);
     }
 }
+
+/* section9: contact */
+.contact .info-box {
+    background-color: #f4f5f6;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.contact .info-box i {
+    font-size: 30px;
+    line-height: 0;
+    color: #4154f1;
+}
+
+.contact .info-box .cellphone {
+    direction: ltr;
+    text-align: right;
+}
+
+.contact .contact-form {
+    background-color: #f4f5f6;
+    padding: 30px;
+    border-radius: 3px;
+
+}
